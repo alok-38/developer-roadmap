@@ -4,56 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Website</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Alokananda's personal website showcasing frontend development projects, work experience, education, and open-source contributions.">
+    <meta name="keywords"
+        content="Frontend Developer, HTML, CSS, JavaScript, Web Development, Projects, Open Source, GitHub, Harvard CS50">
+    <meta name="author" content="Alokananda">
+    <meta property="og:title" content="Alokananda - Frontend Developer">
+    <meta property="og:description"
+        content="Explore the personal website of Alokananda, a frontend developer with a passion for creating engaging web projects.">
+    <meta property="og:image" content="link_to_image_here">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+
+    <title>Alokananda - Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <main>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="/">AY</a>
+                    <h3>Alokananda <span>Y</span></h3>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="articles.html">Articles</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+            <div class="hero">
+                <h1>Frontend Developer</h1>
+                <p>Experienced in HTML and CSS, with a growing proficiency in JavaScript.</p>
+            </div>
+        </header>
+        <section>
             <div>
-                <a href="/">AY</a>
-                <h3>Alokananda</h3>
+                <h3>Projects</h3>
+                <p>HTML Only Portfolio</p>
+                <p>Calculator</p>
+                <p>Quiz App</p>
+                <p>Countdown Timer</p>
+                <p>Product Upcoming Page</p>
             </div>
             <div>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="articles.html">Articles</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </nav>
-        <div>
-            <h1>Frontend Developer</h1>
-            <p>html and css sprinkled with some JavaScript (if I can)</p>
-        </div>
-    </header>
-    <section>
-        <div>
-            <h3>Projects</h3>
-            <p>HTML Only Portfolio</p>
-            <p>Calculator</p>
-            <p>Quiz App</p>
-            <p>Countdown Timer</p>
-            <p>Product Upcoming Page</p>
-        </div>
-        <div>
-            <h3>Work Experience</h3>
-            <div>
-                <p>roadmap.sh</p>
-                <p>Currently solving frontend projects</p>
-                <a href="https://roadmap.sh/u/alok40">Visit my profile</a>
-            </div>
-            <div>
-                <h3>OpenSource Work</h3>
-                <p>Will start contributing to opensource
-                    projects. I still encourage you to visit my
-                    profile!
-                </p>
-                <a href="https://github.com/alok-38">Visit my GitHub Profile</a>
+                <h3>Work Experience</h3>
+                <div style="border-right: none; padding: 0;">
+                    <p>roadmap.sh</p>
+                    <p>Currently solving frontend projects on <a target="_blank" href="https://devchallenges.io/">dev
+                            challenges</a></p>
+                    <a href="https://devchallenges.io/profile/506dbc7a-79ba-457e-b2d3-f0b3f20f95db/projects">Visit my
+                        profile</a>
+                </div>
+                <div style="padding: 0;">
+                    <h3>OpenSource Work</h3>
+                    <p>Will start contributing to open-source
+                        projects. I still encourage you to visit my
+                        profile!
+                    </p>
+                    <a target="_blank" href="https://github.com/alok-38">Visit my GitHub Profile</a>
+                </div>
             </div>
             <div>
                 <div>
@@ -64,44 +81,49 @@
                     <h4>Courses I will take</h4>
                     <ul>
                         <li>Object oriented programming</li>
-                        <li>Data strucutres and algorithms</li>
+                        <li>Data structures and algorithms</li>
                         <li>Web development</li>
                         <li>AI</li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <h3>Testimoneals</h3>
-        <article>
-            <p>Alok is a nice person
-                to work with. He is unique and creative.
-            </p>
+
+        </section>
+        <section>
+            <h3>What Others Say</h3>
             <div>
-                <p>Alok</p>
-                <p>Developer</p>
+                <article>
+                    <p>Alok is a talented developer with a unique approach to problem-solving. He is highly creative
+                        and a
+                        pleasure to collaborate with.</p>
+                    <div>
+                        <p><strong>Alok</strong></p>
+                        <p>Developer</p>
+                    </div>
+                </article>
+                <article>
+                    <p>Working with Alok has been a rewarding experience. His innovative ideas and strong technical
+                        skills
+                        make him stand out.</p>
+                    <div>
+                        <p><strong>Jane Doe</strong></p>
+                        <p>Senior Developer at TechCorp</p>
+                    </div>
+                </article>
+                <article>
+                    <p>Alok's creativity and dedication to his craft make him an exceptional developer. He consistently
+                        delivers high-quality results.</p>
+                    <div>
+                        <p><strong>John Smith</strong></p>
+                        <p>Lead Engineer at WebWorks</p>
+                    </div>
+                </article>
             </div>
-        </article>
-        <article>
-            <p>Alok is a nice person
-                to work with. He is unique and creative.
-            </p>
-            <div>
-                <p>Alok</p>
-                <p>Developer</p>
-            </div>
-        </article>
-        <article>
-            <p>Alok is a nice person
-                to work with. He is unique and creative.
-            </p>
-            <div>
-                <p>Alok</p>
-                <p>Developer</p>
-            </div>
-        </article>
-    </section>
+            <footer>
+                No rights reserved
+            </footer>
+        </section>
+    </main>
 </body>
 
 </html>

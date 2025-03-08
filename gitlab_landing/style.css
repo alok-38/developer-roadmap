@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 52px;
+    background-color: #171321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta {
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
