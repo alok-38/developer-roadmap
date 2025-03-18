@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartment Search</title>
+  </head>
+  <body>
+    <header>
+      <h1>Apartment Search</h1>
+    </header>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Search for Apartments</legend>
+
+          <label for="location">Location</label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            aria-required="true"
+          />
+          <br />
+
+          <label for="monthly-price">Monthly Price</label>
+          <input
+            type="range"
+            id="monthly-price"
+            name="monthly-price"
+            min="200"
+            max="2000"
+            step="50"
+            aria-labelledby="monthly-price-label"
+          />
+          <span id="monthly-price-label"
+            >Monthly price range from $200 to $2000</span
+          >
+          <br />
+
+          <label for="bedrooms">Number of Bedrooms</label>
+          <input type="number" id="bedrooms" name="bedrooms" min="1" />
+          <br />
+
+          <label for="bathrooms">Number of Bathrooms</label>
+          <input type="number" id="bathrooms" name="bathrooms" min="1" />
+          <br />
+
+          <label for="pets-allowed">Pets Allowed</label>
+          <input type="checkbox" id="pets-allowed" name="pets-allowed" />
+          <br />
+
+          <label for="date-available">Date Available</label>
+          <input type="date" id="date-available" name="date-available" />
+          <br />
+
+          <button type="submit">Submit Apartment Search</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
