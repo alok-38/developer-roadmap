@@ -77,3 +77,40 @@ aside li {
     border-bottom: 1px solid gray;
     padding: 1rem;
 }
+
+/* Media query for tablet devices */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    section {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section,
+    aside {
+        width: 100%;
+    }
+}

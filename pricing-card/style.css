@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #27264B;
+    width: 100vw;
 }
 
 main {
@@ -19,7 +20,8 @@ main {
     background-color: #F8FAFE;
     display: flex;
     border-radius: 8px;
-    padding: 3rem 0 3.5rem 0;
+    padding: 3rem 1rem 3.5rem 1rem;
+    gap: 5px;
 }
 
 ul {
@@ -29,6 +31,7 @@ ul {
 ul li::before {
     content: '\2713';
     color: green;
+    margin-right: 5px;
 }
 
 section {
@@ -37,8 +40,8 @@ section {
     background-color: #FFFFFF;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
     color: rgb(4, 51, 82);
-    width: 25%;
-    margin: auto;
+    width: 30%;
+    margin-right: auto;
 }
 
 p:first-of-type {
@@ -47,6 +50,7 @@ p:first-of-type {
 
 p:nth-of-type(2) {
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -76,6 +80,7 @@ a {
     align-items: center;
     justify-content: center;
     color: inherit;
+    margin: 2.5rem 0;
 }
 
 h2 {
@@ -90,7 +95,7 @@ h2 {
 }
 
 span {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 h2:nth-child(1) {
@@ -101,47 +106,28 @@ h2:nth-child(1) {
     font-size: 2.5rem;
 }
 
+section:first-of-type {
+    margin-left: auto;
+}
+
 section:first-of-type h2 {
     background-color: #F8FAFE;
     color: rgb(30, 28, 28);
-}
-
-section:first-of-type {
-    margin-right: 0;
 }
 
 section:nth-of-type(2) h2 {
     background: linear-gradient(to right, #C1DFFF, #B57DFE);
 }
 
+section:nth-of-type(2) a {
+    background-color: #27264B;
+    color: #ffffff;
+}
+
 section:last-of-type h2 {
     background: linear-gradient(to right, #FFB1C1, #FFC67F);
 }
 
-section:last-of-type {
-    margin-left: 0;
-}
-
-/* Tablets */
-@media (min-width: 600px) and (max-width: 900px) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* Two equal columns for the first two sections */
-        grid-template-rows: auto auto;
-        /* Automatically adjusts row heights */
-        gap: 25px;
-        /* Space between grid items */
-    }
-
-    section {
-        width: 100%;
-    }
-
-    main>section:nth-child(3) {
-        grid-column: 1 / span 2;
-        /* Make the third section span the full width of the grid */
-        grid-row: 2;
-        /* Place the third section in the second row */
-    }
+ul li:not(:last-of-type) {
+    margin-bottom: 1rem;
 }
