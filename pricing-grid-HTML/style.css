@@ -19,9 +19,7 @@ main {
     background-color: #F8FAFE;
     display: flex;
     border-radius: 8px;
-    padding: 3rem 2rem 3.5rem 2rem;
-    gap: 25px;
-    max-width: 1125px;
+    padding: 3rem 0 3.5rem 0;
 }
 
 ul {
@@ -39,6 +37,16 @@ section {
     background-color: #FFFFFF;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
     color: rgb(4, 51, 82);
+    width: 25%;
+    margin: auto;
+}
+
+p:first-of-type {
+    margin: 2.75rem 0 1.75rem 0;
+}
+
+p:nth-of-type(2) {
+    text-transform: uppercase;
 }
 
 p {
@@ -81,6 +89,10 @@ h2 {
     justify-content: center;
 }
 
+span {
+    font-size: 16px;
+}
+
 h2:nth-child(1) {
     color: #ffffff;
 }
@@ -94,12 +106,20 @@ section:first-of-type h2 {
     color: rgb(30, 28, 28);
 }
 
+section:first-of-type {
+    margin-right: 0;
+}
+
 section:nth-of-type(2) h2 {
     background: linear-gradient(to right, #C1DFFF, #B57DFE);
 }
 
 section:last-of-type h2 {
     background: linear-gradient(to right, #FFB1C1, #FFC67F);
+}
+
+section:last-of-type {
+    margin-left: 0;
 }
 
 /* Tablets */
@@ -112,6 +132,10 @@ section:last-of-type h2 {
         /* Automatically adjusts row heights */
         gap: 25px;
         /* Space between grid items */
+    }
+
+    section {
+        width: 100%;
     }
 
     main>section:nth-child(3) {
