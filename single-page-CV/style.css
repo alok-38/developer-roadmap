@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Layout */
+body {
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile span {
+    display: inline-block;
+}
+
+span {
+    display: block;
+}
