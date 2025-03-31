@@ -1,1 +1,1 @@
-[project](https://alok-38.github.io/developer-roadmap/single-page-CV)
+https://alok-38.github.io/developer-roadmap/single-page-CV
