@@ -6,4 +6,6 @@ In this project, you are required to create a single-page CV (Curriculum Vitae) 
 
 ![](https://assets.roadmap.sh/guest/resume-template-zyl70.png)
 
-[Project link](https://alok-38.github.io/developer-roadmap/single-page-CV)
+[Project link](https://alok-38.github.io/developer-roadmap/single-page-CV/)
+
+https://roadmap.sh/projects/single-page-cv
