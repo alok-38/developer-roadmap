@@ -6,4 +6,5 @@ The goal of this project is to teach you how to create a structured, single-page
 
 ![In this project, you are required to create a single-page CV (Curriculum Vitae) using only HTML. Your webpage should look like the following image:](https://assets.roadmap.sh/guest/resume-template-zyl70.png)
 
-Project can be accesssed ![here](https://alok-38.github.io/developer-roadmap/single-page-CV/)
+Project can be accesssed 
+![here](https://alok-38.github.io/developer-roadmap/single-page-CV/)
