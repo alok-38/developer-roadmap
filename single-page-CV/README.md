@@ -13,7 +13,8 @@ In this project, you'll build a single-page CV (Curriculum Vitae) using basic HT
 You can view a live demo of this project here:  
 [Single-Page CV Project](https://alok-38.github.io/developer-roadmap/single-page-CV/)
 
-For more details, check the [project link](https://roadmap.sh/projects/single-page-cv).
+Project URL
+https://roadmap.sh/projects/single-page-cv
 
 ## Features
 
@@ -72,4 +73,3 @@ You can view the project example here:
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-https://roadmap.sh/projects/single-page-cv
