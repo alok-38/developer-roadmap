@@ -89,6 +89,22 @@ main {
     border-bottom: #9333EA 2px solid;
 }
 
+main section:first-of-type div {
+    padding: 1rem;
+}
+
+main section p:not(div > p) {
+    padding: 1rem;
+}
+
+main section:first-of-type div {
+    border-bottom: #9333EA 2px solid;
+}
+
+main section:first-of-type p:not(:last-of-type) {
+    border-bottom: #9333EA 2px solid;
+}
+
 section:not(:last-of-type) {
     border-right: #9333EA 2px solid;
 }
@@ -109,17 +125,16 @@ main section:last-of-type div {
 
 section:last-of-type div {
     display: flex;
-    justify-content: space-between;
 }
 
 article {
     border: 2px solid #9333EA;
     border-radius: 25px;
-    width: 30%;
+    width: 25%;
 }
 
 article>p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 1rem;
     padding: 1rem 1rem 0 1rem;
 }
@@ -130,7 +145,16 @@ article div {
     padding-left: 15px;
 }
 
+article div h3 {
+    margin-bottom: 0;
+}
+
+article div p {
+    font-size: 12px;
+}
+
 footer {
     text-align: center;
     font-weight: 200;
+    padding: 2.5rem 0 2rem 0;
 }
