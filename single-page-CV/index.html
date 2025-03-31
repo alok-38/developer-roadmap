@@ -3,8 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Single-Page CV</title>
+
+    <!-- Title for SEO -->
+    <title>Alokananda Y | Junior Frontend Developer - Single Page CV</title>
+
+    <!-- Meta description for SEO -->
+    <meta
+      name="description"
+      content="Alokananda Y's professional CV, showcasing skills in frontend development, education, and experience as a junior developer. Contact details included."
+    />
+
+    <!-- Open Graph Meta Tags for social sharing -->
+    <meta
+      property="og:title"
+      content="Alokananda Y | Junior Frontend Developer"
+    />
+    <meta
+      property="og:description"
+      content="Explore the single-page CV of Alokananda Y, a Junior Frontend Developer. Skills include HTML, CSS, JavaScript, and more."
+    />
+    <meta
+      property="og:url"
+      content="https://alok-38.github.io/developer-roadmap/single-page-CV/"
+    />
+    <meta property="og:image" content="URL_to_image_here" />
+    <!-- Add a URL to your image for social sharing -->
+
+    <!-- Twitter Card Meta Tags -->
+    <meta
+      name="twitter:title"
+      content="Alokananda Y | Junior Frontend Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore the single-page CV of Alokananda Y, a Junior Frontend Developer skilled in HTML, CSS, JavaScript, and more."
+    />
+    <meta name="twitter:image" content="URL_to_image_here" />
+    <!-- Add a URL to your image for Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Linking to the stylesheet -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data Markup (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alokananda Y",
+        "jobTitle": "Junior Frontend Developer",
+        "url": "https://alok-38.github.io/developer-roadmap/single-page-CV/",
+        "image": "URL_to_image_here",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1234567890",
+          "contactType": "Customer Support"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 My Street",
+          "addressLocality": "My City",
+          "addressRegion": "ST",
+          "postalCode": "12345"
+        },
+        "sameAs": [
+          "https://github.com/alok-38",
+          "https://www.linkedin.com/in/alokananda-y-1b06272a1/",
+          "https://x.com/plantsfortrees"
+        ]
+      }
+    </script>
   </head>
   <body>
     <main>
@@ -15,24 +83,31 @@
           <span>123 My Street</span>
           <span>My city, ST 12345</span>
           <span>
-            <a href="tel">+123 456-7890</a>
+            <a href="tel:+1234567890">+123 456-7890</a>
           </span>
           <span>
-            <a href="#">no-reply@example.com</a>
+            <a href="mailto:no-reply@example.com">no-reply@example.com</a>
           </span>
         </address>
       </section>
+
+      <!-- Skills Section -->
       <section class="skills">
         <h2>Skills</h2>
         <p>
-          HTML, CSS, JavaScript, Accessibility, Figma to code, Responsive design
+          Proficient in <strong>HTML</strong>, <strong>CSS</strong>,
+          <strong>JavaScript</strong>, <strong>Accessibility</strong>,
+          <strong>Figma to Code</strong>, and
+          <strong>Responsive Design</strong>.
         </p>
       </section>
+
+      <!-- Education Section -->
       <section class="education">
         <h2>Education</h2>
         <table>
           <caption>
-            2000 &hyphen;2004
+            2000 &ndash; 2004
           </caption>
           <thead>
             <tr>
@@ -44,24 +119,26 @@
           <tbody>
             <tr>
               <td>Bangalore University</td>
-              <td>Bangalore</td>
-              <td>BSc</td>
+              <td>Bangalore, India</td>
+              <td>Bachelor of Science (BSc)</td>
             </tr>
           </tbody>
         </table>
-        <h3>Exciting things I did in the University</h3>
+        <h3>Exciting Things I Did in University</h3>
         <ul>
-          <li>Played a lot of sports</li>
-          <li>Read magazines</li>
-          <li>Used DOS</li>
-          <li>Sang a song</li>
+          <li>Played various sports</li>
+          <li>Read numerous magazines</li>
+          <li>Explored DOS-based systems</li>
+          <li>Sang at college events</li>
         </ul>
       </section>
+
+      <!-- Work Experience Section -->
       <section>
         <h2>Experience</h2>
         <table>
           <caption>
-            2012 &hyphen;2020
+            2012 &ndash; 2020
           </caption>
           <thead>
             <tr>
@@ -73,39 +150,42 @@
           <tbody>
             <tr>
               <td>Unisys</td>
-              <td>Bangalore</td>
-              <td>Service desk analyst</td>
+              <td>Bangalore, India</td>
+              <td>Service Desk Analyst</td>
             </tr>
           </tbody>
         </table>
         <h3>Achievements</h3>
         <ul>
           <li>
-            Ensured consistent customer satisfaction (CSAT) during my tenure
+            Consistently ensured customer satisfaction (CSAT) during my tenure.
           </li>
-          <li>Achieved and exceeded service level agreement (SLA) targets</li>
+          <li>Achieved and exceeded service level agreement (SLA) targets.</li>
           <li>
-            Contributed to cost reduction by optimizing office supply usage
+            Contributed to cost reduction through optimizing office supply
+            usage.
           </li>
         </ul>
-        <h3>Skills</h3>
+        <h3>Skills Developed</h3>
         <ol>
           <li>Software installation and configuration</li>
           <li>Troubleshooting and diagnosing hardware and software issues</li>
-          <li>Basic networking</li>
+          <li>Basic networking skills</li>
           <li>Strong communication and interpersonal skills</li>
         </ol>
       </section>
+
+      <!-- Social Links Section -->
       <section>
-        <h2>Accross the Internet</h2>
+        <h2>Connect with Me</h2>
         <p>
           <a target="_blank" href="https://github.com/alok-38">GitHub</a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/alokananda-y-1b06272a1/"
-            >Linkedin</a
+            >LinkedIn</a
           >
-          <a target="_blank" href="https://x.com/plantsfortrees">X</a>
+          <a target="_blank" href="https://x.com/plantsfortrees">X (Twitter)</a>
         </p>
       </section>
     </main>
