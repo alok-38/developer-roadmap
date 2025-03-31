@@ -1,3 +1,3 @@
-Project URL
+Project page URL
 
-Access this project [here](https://alok-38.github.io/developer-roadmap/single-page-CV)
+Access this project [here](https://alok-38.github.io/developer-roadmap/single-page-CV).
