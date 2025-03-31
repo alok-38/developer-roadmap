@@ -1,21 +1,17 @@
-# Project Name
+# Single page CV
 
-## Project Description
+## Project Page
+You can view the project at the following URL:
+[https://alok-38.github.io/developer-roadmap/single-page-CV](https://alok-38.github.io/developer-roadmap/single-page-CV)
 
-(Description of your project here.)
-
-## Project Page URL
-
-You can access the project [here](https://alok-38.github.io/developer-roadmap/single-page-CV).
+## Description
+(Describe your project here)
 
 ## Installation
-
-(Instructions on how to run or install the project.)
+(Provide instructions to run or install the project)
 
 ## Contributing
-
-(Instructions for contributing, if applicable.)
+(Provide instructions on how to contribute to the project)
 
 ## License
-
-(Include your project's license if applicable.)
+(Include your project's license)
