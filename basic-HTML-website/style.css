@@ -181,3 +181,37 @@ footer p:not(footer article p) {
     text-align: center;
     margin: 3rem 0 2rem 0;
 }
+
+/* Media queries */
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header div {
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section {
+        width: 100%;
+    }
+
+    main section:not(:last-of-type) {
+        border-right: none;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    footer div article {
+        width: 100%;
+    }
+}
