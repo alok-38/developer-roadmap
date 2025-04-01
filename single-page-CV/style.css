@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    margin: 1rem auto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+}
+
+main {
+    border: 2px solid #313131;
+    padding: 2rem 0 2rem 4rem;
+    max-width: 840px;
+    margin: auto;
+}
+
+.name div,
+.skills,
+.name {
+    margin-bottom: 1rem;
+}
+
+table {
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+li {
+    margin-bottom: .5rem;
+}
+
+h1 {
+    color: #1E1E1E;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+h2,
+.name div p {
+    color: #3CA450;
+}
+
+th {
+    color: #1971C2;
+}
+
+p,
+td,
+li {
+    color: #272727;
+}
+
+/* Section  */
+section:last-of-type a {
+    color: inherit;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+}
+
+section:last-of-type a:hover {
+    font-weight: 500;
+    transition: all;
+}
+
+section:last-of-type a:focus,
+section:last-of-type a:visited {
+    color: inherit;
+}
+
+section:last-of-type a:not(:first-of-type) {
+    margin-left: 15px;
+}
+
+/* table */
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+/* Smartphone */
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        /* Allow body to take full width */
+        padding: 1rem;
+        /* Adjust padding for smaller screens */
+    }
+
+    table {
+        width: 100%;
+        /* Make table width 100% of the parent container */
+        font-size: 0.9rem;
+        /* Reduce font size slightly for better fit */
+    }
+
+    th,
+    td {
+        padding: 0.8rem;
+        /* Reduce padding in cells to prevent overflow */
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        /* Reduce h1 font size */
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        /* Reduce h2 font size */
+    }
+
+    /* Make sure the text content doesn't overflow */
+    .name div,
+    .skills,
+    .name {
+        word-wrap: break-word;
+        /* Ensure long words wrap and don't cause overflow */
+    }
+
+    /* Ensure links are fully visible and easy to click */
+    section:last-of-type a {
+        font-size: 12px;
+        /* Make font size smaller */
+        margin-left: 8px;
+        /* Adjust margin for better spacing */
+    }
+}
