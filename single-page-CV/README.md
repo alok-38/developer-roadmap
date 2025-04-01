@@ -1,5 +1,7 @@
 # Single Page CV
-[text](https://roadmap.sh/projects/single-page-cv)
+
+https://roadmap.sh/projects/single-page-cv
+
 ## Project Overview
 
 The goal of this project is to teach you how to create a structured, single-page CV using only **HTML**. You will focus on laying out the following sections in a clean, semantic manner:
