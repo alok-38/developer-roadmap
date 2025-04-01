@@ -142,3 +142,5 @@ git clone --depth=1 https://github.com/kamranahmedse/developer-roadmap.git
 - Suggest changes to existing roadmaps
 - Discuss ideas in issues
 - Spread the word
+
+Project URL: https://roadmap.sh/projects/single-page-cv
