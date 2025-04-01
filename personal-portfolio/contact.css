@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section:not(:last-of-type) {
+    border-right: none;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+}
+
+section form input,
+section form textarea,
+section button {
+    outline: unset;
+    margin-bottom: .75rem;
+    cursor: pointer;
+    padding: .75rem 1rem;
+    background: transparent;
+    border: unset;
+    border: 2px solid rebeccapurple;
+}
+
+section button {
+    margin-top: .5rem;
+    color: rgb(30, 30, 30);
+    font-weight: 500;
+    background-color: rgb(103, 17, 190);
+    color: #ffffff;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: rgb(124, 54, 194);
+
+}
+
+textarea {
+    resize: none;
+}
+
+section:last-of-type ul {
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-of-type ul li {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+section:last-of-type ul li a {
+    color: rgb(103, 17, 190);
+}
