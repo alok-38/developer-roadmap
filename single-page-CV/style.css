@@ -58,6 +58,12 @@ h2 {
     font-size: 1.25rem;
 }
 
+.education h3,
+.experience h3 {
+    color: #1971C2;
+    margin-bottom: .5rem;
+}
+
 h2,
 .name div p {
     color: #3CA450;
@@ -71,6 +77,19 @@ p,
 td,
 li {
     color: #272727;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
 }
 
 /* Section  */
@@ -101,6 +120,10 @@ th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 1rem;
+}
+
+ul {
+    margin-bottom: 1rem;
 }
 
 /* Smartphone */

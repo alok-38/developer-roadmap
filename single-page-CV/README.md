@@ -1,6 +1,9 @@
 # Single Page CV
 
-https://roadmap.sh/projects/single-page-cv
+## Project URL
+
+You can view the project live here: [My Project Page](https://alok-38.github.io/developer-roadmap/single-page-CV/)
+
 
 ## Project Overview
 
