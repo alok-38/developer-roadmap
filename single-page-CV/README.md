@@ -1,10 +1,5 @@
 # Single Page CV
 
-## Project URL
-
-https://roadmap.sh/projects/single-page-cv
-
-
 ## Project Overview
 
 The goal of this project is to teach you how to create a structured, single-page CV using only **HTML**. You will focus on laying out the following sections in a clean, semantic manner:
@@ -51,4 +46,6 @@ This is a static HTML page, so to view it:
 ### Your webpage should look like the following image:
 
 ![webpage](https://assets.roadmap.sh/guest/resume-template-zyl70.png)
+
+Project URL:https://roadmap.sh/projects/single-page-cv
 
