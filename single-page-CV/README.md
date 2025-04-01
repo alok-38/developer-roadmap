@@ -1,1 +1,1 @@
-[text](https://roadmap.sh/projects/single-page-cv)
+[text](https://github.com/alok-38/developer-roadmap/single-page-CV/README.md)
