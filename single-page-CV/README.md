@@ -2,7 +2,7 @@
 
 ## Project URL
 
-You can view the project live here: [My Project Page](https://roadmap.sh/projects/single-page-cv)
+https://roadmap.sh/projects/single-page-cv
 
 
 ## Project Overview
