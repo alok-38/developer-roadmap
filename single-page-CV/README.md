@@ -47,5 +47,5 @@ This is a static HTML page, so to view it:
 
 ![webpage](https://assets.roadmap.sh/guest/resume-template-zyl70.png)
 
-Project URL:https://roadmap.sh/projects/single-page-cv
+Project URL: https://roadmap.sh/projects/single-page-cv
 
