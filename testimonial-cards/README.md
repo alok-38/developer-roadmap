@@ -6,4 +6,4 @@ The goal of this project is to teach you about positioning and layout in CSS. Be
 
 ![testimonials](https://assets.roadmap.sh/guest/testimonials-min-3j2j4.png)
 
-View it live [here]()
+View it live [here](https://alok-38.github.io/developer-roadmap/testimonial-cards/)
