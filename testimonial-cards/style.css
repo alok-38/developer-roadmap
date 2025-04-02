@@ -10,9 +10,145 @@ body {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 .wrapper {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    max-width: 840px;
+    margin: 2rem auto 0 auto;
+    gap: 25px;
+    padding: 0 1.5rem;
 }
 
+.hero,
+.middle,
+.second-row {
+    display: flex;
+}
+
+.hero {
+    justify-content: space-between;
+}
+
+.hero article {
+    width: 48%;
+}
+
+.hero article .first-row:not(article:last-of-type .first-row) {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero article .first-row:not(article:last-of-type .first-row) p {
+    margin-top: 2rem;
+}
+
+.hero article:last-of-type {
+    padding: 2rem;
+}
+
+.hero article:last-of-type .second-row {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero article:last-of-type .second-row img {
+    margin-right: 15px;
+}
+
+.hero article .first-row:not(article:last-of-type .first-row),
+.middle article:last-of-type {
+    background-color: #1E1E1E;
+    color: #ffffff;
+}
+
+.second-row img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.middle {
+    gap: 25px;
+}
+
+.middle article img {
+    object-fit: cover;
+}
+
+.middle article:last-of-type {
+    padding: 2rem;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.middle article:last-of-type p:first-of-type {
+    color: #777777;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.hero article .first-row:not(article:last-of-type .first-row),
+.hero article:last-of-type,
+.middle article,
+footer {
+    border-radius: 25px;
+    overflow: hidden;
+    border: 2px solid #1E1E1E;
+}
+
+footer {
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.pagination {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.pagination img:first-of-type,
+.pagination img:last-of-type {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.pagination img:nth-of-type(2) {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* Styles that apply when the screen width is 620px or less */
+@media (max-width: 620px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero article {
+        width: 100%;
+    }
+}
