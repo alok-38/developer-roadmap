@@ -14,7 +14,7 @@ body {
 main {
     border-radius: 25px;
     border: 2px solid #232323;
-    max-width: 50%;
+    max-width: 45%;
     margin: 2rem auto;
 }
 
@@ -42,12 +42,16 @@ section {
     justify-content: center;
 }
 
+section div {
+    height: 400px;
+}
+
 div p {
     margin-bottom: 2rem;
 }
 
 div:first-of-type {
-    border-right: 2px solid #1E1E1E;
+    border-right: 4px dotted #1E1E1E;
     padding-right: 25px;
     font-weight: 600;
 }
