@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    background-color: #0F1217;
+}
+
+main {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+header {
+    border-bottom: solid 1px #4D4D4D;
+}
+
+article {
+    background-color: #FFFFFF;
+}
