@@ -21,10 +21,35 @@ main {
     border: 2px solid black;
 }
 
+section:first-of-type div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+section:first-of-type div:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section:first-of-type div:last-of-type span:first-of-type {
+    font-size: .75rem;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     border: 2px solid black;
+    padding: .5rem;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+header i {
+    padding: .5rem;
 }
 
 header p {
@@ -38,6 +63,7 @@ header p {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid #000;
+    margin: .5rem;
 }
 
 .triangle-right {
@@ -46,6 +72,11 @@ header p {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid #000;
+    margin: .5rem;
+}
+
+section:first-of-type div:last-of-type {
+    margin: .5rem .5rem;
 }
 
 section:last-of-type div:not(section:last-of-type div:last-of-type) {
@@ -79,4 +110,14 @@ section:last-of-type div:nth-of-type(4) span:not(:last-of-type) {
 
 section:last-of-type div:nth-of-type(5) span:not(:last-of-type) {
     border-right: 1px solid black;
+}
+
+section:last-of-type div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section:last-of-type div span {
+    padding: .5rem;
 }
