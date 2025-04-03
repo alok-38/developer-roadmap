@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 4px solid #7E22CE;
+    max-width: 820px;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+}
+
+div:last-of-type {
+    background-color: #E5E5E5;
+}
+
+button,
+input {
+    outline: unset;
+    border: unset;
+    border: 2px solid #7E22CE;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: inherit;
+}
+
+button {
+    width: 95%;
+    background-color: #7E22CE;
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    height: 60px;
+}
+
+input[type="text"] {
+    margin-bottom: 1rem;
+}
+
+input[type="password"] {
+    margin-bottom: 1rem;
+}
+
+input[type="email"] {
+    border: solid 2px red;
+}
+
+input::placeholder {
+    font-size: 1.25rem;
+}
+
+input[type="email"]::placeholder {
+    color: red;
+}
+
+input[type="email"]+p {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    color: red;
+}
+
+input {
+    padding: 0 1rem;
+}
+
+section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section:last-of-type div:first-of-type {
+    border-radius: 50%;
+    border: 4px solid blueviolet;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+section:last-of-type div:last-of-type {
+    border-radius: 25px;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+}
+
+section:last-of-type div:last-of-type p {
+    margin-bottom: 1rem;
+}
+
+section:last-of-type div:last-of-type p:not(:last-of-type) {
+    text-decoration: line-through;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        margin: 2rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    h2 {
+        margin: 1rem 0;
+    }
+}
