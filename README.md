@@ -150,3 +150,4 @@ Project URL4: https://roadmap.sh/projects/changelog-component
 Project URL5: https://roadmap.sh/projects/testimonial-cards
 Project URL6: https://roadmap.sh/projects/datepicker-ui
 Project URL7: https://roadmap.sh/projects/accessible-form-ui
+Project URL8: https://roadmap.sh/projects/image-grid

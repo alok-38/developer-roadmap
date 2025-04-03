@@ -8,4 +8,4 @@ The goal of this project is to give you hands-on experience with CSS Grid, allow
 
 ![Image Grid Layout](https://assets.roadmap.sh/guest/image-grid.jpg)
 
-view it [live]()
+view it [live](https://alok-38.github.io/developer-roadmap/image-grid-layout/)
