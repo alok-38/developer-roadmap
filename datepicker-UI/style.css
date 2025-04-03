@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+header p {
+    border-right: 2px solid black;
+    padding-right: 25px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #000;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #000;
+}
+
+section:last-of-type div:not(section:last-of-type div:last-of-type) {
+    border-bottom: 1px solid black;
+}
+
+section:first-of-type {
+    border-bottom: 2px solid black;
+}
+
+section:first-of-type div {
+    display: flex;
+}
+
+/* border for spans */
+section:last-of-type div:first-of-type span:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+section:last-of-type div:nth-of-type(2) span:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+section:last-of-type div:nth-of-type(3) span:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+section:last-of-type div:nth-of-type(4) span:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+section:last-of-type div:nth-of-type(5) span:not(:last-of-type) {
+    border-right: 1px solid black;
+}
