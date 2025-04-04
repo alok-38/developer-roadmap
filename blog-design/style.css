@@ -329,6 +329,7 @@ footer a:last-of-type {
     .grid article {
         width: 100%;
         padding: 2rem;
+        margin: auto;
     }
 
     .grid article img {
