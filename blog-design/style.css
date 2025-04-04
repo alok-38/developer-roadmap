@@ -1,20 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+    font-family: "Poppins", sans-serif;
     line-height: 1.5;
-    font-family: "Inter", sans-serif;
     background-color: #0F1217;
 }
 
+header,
 main {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-}
-
-header {
     border-bottom: solid 1px #4D4D4D;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a:first-of-type:not(nav ul a) {
+    font-size: 30px;
+    font-family: inherit;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: inherit;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+nav ul li:not(nav ul li:first-of-type) {
+    margin-left: 15px;
+}
+
+nav ul a {
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 3rem 0;
+    margin-bottom: 1rem;
+}
+
+.hero img {
+    display: block;
+    object-fit: cover;
+}
+
+.hero h1 {
+    color: #FF7575;
+    font-family: "Vesper Libre", serif;
+    font-style: italic;
+    margin: 2rem 0 0rem 0;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.hero p {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.wrapper {
+    max-width: 1236px;
+    margin: 2rem auto 0 auto;
+}
+
+.breadcrumbs {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.75rem;
+}
+
+.breadcrumbs div:first-of-type {
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumbs div:last-of-type {
+    display: flex;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.breadcrumbs div:last-of-type a {
+    font-style: italic;
+}
+
+.breadcrumbs div:last-of-type a:not(:last-of-type) {
+    margin-right: 100px;
+}
+
+.breadcrumbs div:last-of-type a:last-of-type {
+    opacity: .5;
+}
+
+
+.breadcrumbs a {
+    text-decoration: none;
+    font-family: inherit;
+    color: #ffffff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+}
+
 article {
+    width: 390px;
+    border-radius: 22px;
+    overflow: hidden;
     background-color: #FFFFFF;
+    padding: 1.5rem;
+}
+
+article h4 {
+    margin: 2rem 0 1rem 0;
+}
+
+article img {
+    display: block;
+    object-fit: cover;
+}
+
+article div {
+    display: flex;
+    margin: 1.5rem 0 auto 0;
+    align-items: center;
+    gap: 25px;
+}
+
+article div span:nth-of-type(2) {
+    font-size: 24px;
+    padding: 0;
+    margin-bottom: 15px;
+    height: fit-content;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 2.75rem 0 3.75rem 0;
+    margin: 2rem 0 3rem 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #909090;
+    font-style: italic;
+}
+
+.pagination a:nth-of-type(3) {
+    color: #FF7575;
+    border-top: 2px solid #FF7575;
+}
+
+footer {
+    display: flex;
+    padding: 1.5rem 0 3.75rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer div a:nth-of-type(2) {
+    background-color: #4699E0;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+footer a:last-of-type {
+    background-color: #4699E0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: .5rem 1rem;
+}
+
+@media screen and (max-width: 840px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
+    }
 }
