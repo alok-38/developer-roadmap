@@ -295,7 +295,7 @@ footer a:last-of-type {
 @media screen and (max-width: 640px) {
 
     .wrapper {
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
 
