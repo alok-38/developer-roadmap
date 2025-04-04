@@ -15,6 +15,7 @@ body {
 header,
 main {
     border-bottom: solid 1px #4D4D4D;
+    width: 100%;
 }
 
 nav {
@@ -112,7 +113,6 @@ nav ul a {
     opacity: .5;
 }
 
-
 .breadcrumbs a {
     text-decoration: none;
     font-family: inherit;
@@ -209,12 +209,147 @@ footer a:last-of-type {
     padding: .5rem 1rem;
 }
 
-@media screen and (max-width: 840px) {
+/* Media Query Adjustments */
+
+@media screen and (max-width: 1040px) {
+
+    .wrapper {
+        width: 95%;
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 90%;
+        padding: 3.75rem;
+        margin: auto;
+    }
+
+    .hero {
+        margin: auto;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+    }
 
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 25px;
-        grid-column-gap: 25px;
+        gap: 25px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .grid article {
+        width: 95%;
+        padding: 2.5rem;
+    }
+
+    .grid article img {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 95%;
+        margin: auto;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .grid article {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .grid article img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .wrapper {
+        width: 95%;
+        margin: auto;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 90%;
+        padding: 3.75rem;
+        margin: auto;
+    }
+
+    .hero {
+        margin: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .grid article {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .grid article img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .pagination {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    footer div {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
