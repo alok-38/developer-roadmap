@@ -16,4 +16,4 @@ The practice that I used to follow when I was learning was this:
 
 Here is a [simple blog design in figma](https://www.figma.com/file/nh0V05z3NB87ue9v5PcO3R/writings.dev?type=design&node-id=0%3A1&t=2iQplaIojU3ydAfW-1) that you can try to copy.
 
-View it live [here]()
+View it live [here](https://alok-38.github.io/developer-roadmap/blog-design/)
