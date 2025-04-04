@@ -322,7 +322,7 @@ footer a:last-of-type {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
-        width: 100%;
+        width: 95%;
         margin: auto;
     }
 
