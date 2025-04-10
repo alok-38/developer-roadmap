@@ -156,4 +156,4 @@ git clone --depth=1 https://github.com/kamranahmedse/developer-roadmap.git
 - Project URL9: https://github.com/alok-38/developer-roadmap
 - Project URL10: https://roadmap.sh/projects/tooltip-ui
 - Project URL11: https://roadmap.sh/projects/simple-tabs
-- Project URL12: https://github.com/alok-38/developer-roadmap/tree/main
+- Project URL12: https://roadmap.sh/projects/cookie-consent
