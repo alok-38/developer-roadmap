@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
+
+body {
+    font-family: "National Park", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+}
+
+h1 {
+    color: rgb(32, 30, 30);
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+textarea {
+    font-family: inherit;
+    font-family: inherit;
+    resize: none;
+    outline: unset;
+    border: 2px solid #8200DB;
+    border-radius: 1.5rem;
+    height: 125px;
+    width: 90%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+main div {
+    position: fixed;
+    left: 68%;
+    bottom: 35%;
+}
+
