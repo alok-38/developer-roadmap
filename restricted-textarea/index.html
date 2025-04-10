@@ -3,16 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restricted Textarea</title>
+
+    <title>Restricted Textarea – Controlled Character Input</title>
+    <meta
+      name="description"
+      content="A simple web tool that restricts and counts characters in a textarea as you type. Perfect for writing within a set limit."
+    />
+    <meta
+      name="keywords"
+      content="restricted textarea, character counter, input limit, JavaScript textarea, web development tool"
+    />
+    <meta name="author" content="Alok" />
+    <link
+      rel="canonical"
+      href="https://alok-38.github.io/developer-roadmap/restricted-textarea/"
+    />
+
+    <!-- Open Graph Tags -->
+    <meta
+      property="og:title"
+      content="Restricted Textarea – Controlled Character Input"
+    />
+    <meta
+      property="og:description"
+      content="Write within limits. This tool helps you stay within character limits in real time."
+    />
+    <meta
+      property="og:url"
+      content="https://alok-38.github.io/developer-roadmap/restricted-textarea/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://alok-38.github.io/developer-roadmap/restricted-textarea/og-image.png"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Restricted Textarea – Controlled Character Input"
+    />
+    <meta
+      name="twitter:description"
+      content="Write within limits. This tool helps you stay within character limits in real time."
+    />
+    <meta
+      name="twitter:image"
+      content="https://alok-38.github.io/developer-roadmap/restricted-textarea/og-image.png"
+    />
+
     <link rel="icon" href="https://fav.farm/👓" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
+
   <body>
     <div class="wrapper">
       <main>
         <h1>Write your message</h1>
-        <textarea placeholder="Start typing ..." autofocus name="message" id="message"></textarea>
+        <textarea
+          placeholder="Start typing ..."
+          autofocus
+          name="message"
+          id="message"
+        ></textarea>
         <div><span>0</span>&nbsp;&#x2f;&nbsp;<span></span></div>
       </main>
     </div>
