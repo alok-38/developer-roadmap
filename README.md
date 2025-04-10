@@ -158,3 +158,4 @@ git clone --depth=1 https://github.com/kamranahmedse/developer-roadmap.git
 - Project URL11: https://roadmap.sh/projects/simple-tabs
 - Project URL12: https://roadmap.sh/projects/cookie-consent
 - Project URL13: https://roadmap.sh/projects/restricted-textarea
+- Project URL14: https://roadmap.sh/projects/accordion
