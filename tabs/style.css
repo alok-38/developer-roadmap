@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "National Park", sans-serif;
+    background-color: rgb(243, 247, 249);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #ffffff;
+    max-width: 640px;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* Tabs */
+.tab {
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #eee;
+}
+
+.tab.active {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.tab-content.active {
+    display: block;
+}
