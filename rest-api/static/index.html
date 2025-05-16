@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <script>
+        // Fetch all users from the API and display them
+        function fetchUsers() {
+            fetch('/users')
+                .then(response => response.json())
+                .then(data => {
+                    const usersList = document.getElementById('users-list');
+                    usersList.innerHTML = '';
+                    data.forEach(user => {
+                        const li = document.createElement('li');
+                        li.textContent = `${user.id}: ${user.name}`;
+                        usersList.appendChild(li);
+                    });
+                });
+        }
+
+        // Add a new user through the API
+        function createUser() {
+            const name = document.getElementById('name').value;
+            fetch('/users', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(`User created: ${data.name}`);
+                fetchUsers();  // Refresh the user list
+            });
+        }
+
+        // Initialize by fetching users
+        window.onload = fetchUsers;
+    </script>
+</head>
+<body>
+    <h1>User Management</h1>
+    <h2>Create a User</h2>
+    <input type="text" id="name" placeholder="Enter user name">
+    <button onclick="createUser()">Create User</button>
+
+    <h2>Users List</h2>
+    <ul id="users-list"></ul>
+</body>
+</html>

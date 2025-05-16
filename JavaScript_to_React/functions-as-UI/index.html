@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Playground Boss Mode</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Hello <span id="language">🐍 Python</span></h1>
+      <pre id="codeBlock"><code></code></pre>
+      <div>
+        <button id="runCode">▶ Run</button>
+        <button id="copyCode">📋 Copy</button>
+      </div>
+      <div id="output"></div>
+      <select id="languageSelector">
+        <option value="python">🐍 Python</option>
+        <option value="javascript">🌐 JavaScript</option>
+        <option value="java">☕ Java</option>
+        <option value="csharp">🔧 C#</option>
+        <option value="ruby">💎 Ruby</option>
+      </select>
+      <br />
+      <button id="themeToggle">Toggle Theme 🌗</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+  </body>
+</html>
